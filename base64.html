@@ -1,0 +1,8 @@
+<script type="module">
+import { Base64 } from "./Base64.js";
+const bin = new Uint8Array([1, 2, 3, 4, 5]);
+const s = Base64.encode(bin);
+console.log(s);
+const test = Base64.decode(s);
+console.log(test);
+</script>
