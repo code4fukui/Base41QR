@@ -1,22 +1,22 @@
-# Base45QR
+# Base41QR
 
-under construction
+Base41 encoding for QR code alpha numeric mode
 
 ## sample app
 
-https://code4fukui.github.io/Base45QR/
+https://code4fukui.github.io/Base41QR/
 
 ## usage
 
 ```js
-import { Base45QR } from "https://code4fukui.github.io/Base45QR/Base45QR.js";
+import { Base41QR } from "https://code4fukui.github.io/Base41QR/Base41QR.js";
 
-console.log(Base45QR.encode(new Uint8Array([ 15, 255, 79, 209, 104, 252 ])));
-console.log(Base45QR.encode(new Uint8Array([ 218 ])));
-console.log(Base45QR.decode("01234ABCD"));
-console.log(Base45QR.decode("%4"));
+console.log(Base41QR.encode(new Uint8Array([ 15, 255, 79, 209, 104, 252 ])));
+console.log(Base41QR.encode(new Uint8Array([ 218 ])));
+console.log(Base41QR.decode("01234ABCD"));
+console.log(Base41QR.decode("%4"));
 ```
 
 ## reference
 
-- [RFC 9285 - The Base45 Data Encoding 日本語訳](https://tex2e.github.io/rfc-translater/html/rfc9285.html)
+- [Base45QR](https://github.com/code4fukui/Base45QR/)

@@ -1,8 +1,8 @@
 <script type="module">
-import { Base45QR } from "./Base45QR.js";
+import { Base41QR } from "./Base41QR.js";
 const bin = new Uint8Array([1, 2, 3, 4, 5]);
-const s = Base45QR.encode(bin);
+const s = Base41QR.encode(bin);
 console.log(s);
-const test = Base45QR.decode(s);
+const test = Base41QR.decode(s);
 console.log(test);
 </script>

@@ -1,13 +1,13 @@
 <!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <script type="module">
-import { Base45QR } from "./Base45QR.js";
+import { Base41QR } from "./Base41QR.js";
 
 onload = () => {
   enc.onclick = () => {
-    b45QR.value = Base45QR.encode(new TextEncoder().encode(txt.value));
+    b41QR.value = Base41QR.encode(new TextEncoder().encode(txt.value));
   };
   dec.onclick = () => {
-    txt.value = new TextDecoder().decode(Base45QR.decode(b45QR.value));
+    txt.value = new TextDecoder().decode(Base41QR.decode(b41QR.value));
   };
 };
 </script>
@@ -22,10 +22,10 @@ button {
 }
 </style>
 </head><body>
-<h1>Base45QR encoder/decoder</h1>
+<h1>Base41QR encoder/decoder</h1>
 <textarea id=txt></textarea><br>
 <button id="enc">↓enc</button><button id="dec">↑dec</button><br>
-<textarea id=b45QR></textarea><br>
+<textarea id=b41QR></textarea><br>
 
-<a href=https://github.com/code4fukui/Base45QR/>src on GitHub</a><br>
+<a href=https://github.com/code4fukui/Base41QR/>src on GitHub</a><br>
 </body></html>
