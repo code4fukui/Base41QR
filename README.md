@@ -11,10 +11,10 @@ https://code4fukui.github.io/Base41QR/
 ```js
 import { Base41QR } from "https://code4fukui.github.io/Base41QR/Base41QR.js";
 
-console.log(Base41QR.encode(new Uint8Array([ 15, 255, 79, 209, 104, 252 ])));
-console.log(Base41QR.encode(new Uint8Array([ 218 ])));
-console.log(Base41QR.decode("01234ABCD"));
-console.log(Base41QR.decode("%4"));
+console.log(Base41QR.encode(new Uint8Array([0, 43, 20, 92, 40, 141])));
+console.log(Base41QR.encode(new Uint8Array([218])));
+console.log(Base41QR.decode("012345678"));
+console.log(Base41QR.decode("5D"));
 ```
 
 ## reference
