@@ -6,6 +6,8 @@ export const BASE41QRS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ$%*+-"; // length 
   // $%*+-: 5
 // 41*41*41 = 68921 < 65535
 
+// not used: ' '/*space*/, '.', '/', ':' in alphanumeric
+
 const encode = (bin) => {
   const txt = [];
   for (let i = 0; i < bin.length; i += 2) {

@@ -2,6 +2,8 @@
 
 Base41 encoding for QR code alpha numeric mode
 
+- not used: ' '(space), '.', '/', ':' in alphanumeric
+
 ## sample app
 
 https://code4fukui.github.io/Base41QR/
