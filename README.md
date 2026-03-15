@@ -1,15 +1,15 @@
 # Base41QR
 
-Base41 encoding for QR code alpha numeric mode
+Base41 encoding for QR code alphanumeric mode, without using ' '(space), '.', '/', ':' in alphanumeric.
 
-- not used: ' '(space), '.', '/', ':' in alphanumeric
-
-## sample app
-
+## Demo
 https://code4fukui.github.io/Base41QR/
 
-## usage
+## Features
+- Base41 encoding for QR code alphanumeric mode
+- Compact encoding without using space, period, slash, and colon
 
+## Usage
 ```js
 import { Base41QR } from "https://code4fukui.github.io/Base41QR/Base41QR.js";
 
@@ -19,6 +19,5 @@ console.log(Base41QR.decode("012345678"));
 console.log(Base41QR.decode("5D"));
 ```
 
-## reference
-
-- [Base45QR](https://github.com/code4fukui/Base45QR/)
+## License
+MIT License
