@@ -1,5 +1,7 @@
 # Base41QR
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Base41 encoding for QR code alphanumeric mode, without using ' '(space), '.', '/', ':' in alphanumeric.
 
 ## Demo
