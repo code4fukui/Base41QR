@@ -22,4 +22,4 @@ console.log(Base41QR.decode("5D"));
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
